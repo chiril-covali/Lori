@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 .patrick-hand-regular {
   font-family: "Patrick Hand", cursive;
@@ -13,8 +14,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Patrick Hand", "Kalam", cursive;
+  font-style: normal;
   overflow: hidden;
+  font-size: 200%;
 }
 
 /* reload button */
